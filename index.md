@@ -21,8 +21,9 @@
 
 ## How to install mods 
 - Go into your SK directory and add a folder called mods  
-- Grab the sample folder 
-- Put the sample folder into the mods folder  
+- Grab the [Base Mod](https://github.com/microbullet/microbullet.github.io/files/8694328/Base.Mod.zip)
+ folder 
+- Put the Base mod folder into the mods folder  
 - If your file structure looks like “Sk Folder > mods > sample > files” then you are good to go 
 
 ## Smple modding 
@@ -40,6 +41,7 @@ In the sample mod folder, there are 4 images that can be edited, they are
 When texture modding here’s what to watch out for 
 - You cannot extend the images, or it breaks the textures (for now (we hope)) 
 - The game is limited to 5 colors and any other color will appear transparent, the 5 colors are 
+- ![colors](https://user-images.githubusercontent.com/73013941/168457764-4457721d-0dd4-4752-b0ea-7b7b53eed9f6.png)
 
 ### Text modding 
 
