@@ -21,7 +21,7 @@
 
 ## How to install mods 
 - Go into your SK directory and add a folder called mods  
-- Grab the [Base Mod](https://github.com/microbullet/microbullet.github.io/files/8694328/Base.Mod.zip)
+- Grab the [Base mod.zip](https://github.com/microbullet/microbullet.github.io/files/8694444/Base.mod.zip)
  folder 
 - Put the Base mod folder into the mods folder  
 - If your file structure looks like “Sk Folder > mods > sample > files” then you are good to go 
@@ -105,7 +105,7 @@ need_<variable>=<int> 			        = requires <variable> to equal <int> to appear
 need_<identifier>_<variable>=<int> 	= requires the <identifier>’s <variable> to equal <int> to appear 
 ```
 
-Card specific variables 
+### Card specific variables 
 ```
 pwe=<int>	  = determines how rare the card is, set to 0 and it won't appear 
 
@@ -129,17 +129,15 @@ Booleans:
 
 crown=<bool>			      = decides whether you have the effect of sacred crown or not 
 
-presence=<bool?>		    = determines whether you have august Presence enabled 
+presence=<bool>		    = determines whether you have august Presence enabled 
 
 hop=<bool> 			        = determines whether you have taunting hop enabled 
 
-heir=<bool?> 			      = determines whether a secret heir is picked every round 
+heir=<bool> 			      = determines whether a secret heir is picked every round 
 
 pikemen=<bool>		      = determines whether you have pikemen enabled 
 
-steed=<bool?> 		      = determines whether you get an extra move space per knight soul 
-
-Assault=<bool?>		      = determines whether assault is active or not 
+Assault=<bool>		      = determines whether assault is active or not 
   
 Knight_shield=<bool>		= determines whether knight shield is active or not 
 
@@ -171,6 +169,8 @@ soul_sink=<-Int> 		        = decreases the king’s soul slots by <-int>
 firepower=<int> 		        = gain <int> firepower  
 
 pierce=<int> 		 	          = gain <int> pierce 
+ 
+steed=<int+> 		      = determines how many extra turns you get for killing a knight
 
 wand={<int>}			          = gain <int> wand, explained further 
 
@@ -183,7 +183,7 @@ absolution=<int> 		        = gain <int> firepower for every empty soul slot
 mist=<int> 			            = get saved from death <int> times 
 
 flip_on=”contact”or”inner” 	= determines whether the card flips for specific conditions 
-
+ 
 grab=<int>			            = you get to pick up and throw <int> pieces per round 
 ```
  
@@ -200,13 +200,17 @@ grab=<int>			            = you get to pick up and throw <int> pieces per round
 
 <identifier>_orth=<bool>	    = determines whether <identifier>s can move like queens 
 
-<identifier>_joust=<bool?> 	  = determines whether you get an extra turn for killing an <identifier>? 
+<identifier>_joust=<bool> 	  = determines whether you get an extra turn for killing an <identifier>? 
 
 <identifier>_poison=<int>	    = applies poison to all <identifier>’s for <int> turns 
 
 <identifier>_shell=<int> 	    = gain <int> ammo when you kill a <identifier>	 
 
 <identifier>_hp=<int>		      = changes the hp of every <identifier> by <int> 
+ 
+<identifier>_iron=<bool>     = decides whether or not the <identifier> is invincible.
+ 
+<identifier>_bodyguard=<bool> = decides whether <identifier> needs to be killed before the king can die
 ```
  
 ## Card syntax 
