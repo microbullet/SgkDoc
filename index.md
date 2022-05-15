@@ -138,8 +138,6 @@ heir=<bool> 			      = determines whether a secret heir is picked every round
 pikemen=<bool>		      = determines whether you have pikemen enabled 
 
 Assault=<bool>		      = determines whether assault is active or not 
-  
-Knight_shield=<bool>		= determines whether knight shield is active or not 
 
 theocracy=<bool>		    = determines whether theocracy is enabled 
 ```
@@ -211,6 +209,9 @@ grab=<int>			            = you get to pick up and throw <int> pieces per round
 <identifier>_iron=<bool>     = decides whether or not the <identifier> is invincible.
  
 <identifier>_bodyguard=<bool> = decides whether <identifier> needs to be killed before the king can die
+ 
+
+<identifier>_shield=<bool>		= determines whether <identifier>s shield is active or not 
 ```
  
 ## Card syntax 
