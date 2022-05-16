@@ -21,7 +21,7 @@
 
 ## How to install mods 
 - Go into your SK directory and add a folder called mods  
-- Grab the [Base mod.zip](https://github.com/microbullet/microbullet.github.io/files/8694444/Base.mod.zip)
+- the [Base mod.zip](https://github.com/microbullet/microbullet.github.io/files/8694444/Base.mod.zip)
  folder 
 - Put the Base mod folder into the mods folder  
 - If your file structure looks like “mods > base mod > files” then you are good to go 
@@ -126,7 +126,9 @@ sac=<int> or sac={<int>,<int>}  	= removes specific units
 ## Non-specific variables 
 ```
 Booleans: 
-
+```
+grab=<bool>			            = decides whether you can pick up a unit and throw it 
+ 
 crown=<bool>			      = decides whether you have the effect of sacred crown or not 
 
 presence=<bool>		    = determines whether you have august Presence enabled 
@@ -181,8 +183,6 @@ absolution=<int> 		        = gain <int> firepower for every empty soul slot
 mist=<int> 			            = get saved from death <int> times 
 
 flip_on=”contact”or”inner” 	= determines whether the card flips for specific conditions 
- 
-grab=<int>			            = you get to pick up and throw <int> pieces per round 
 ```
  
 
