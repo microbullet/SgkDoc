@@ -73,7 +73,7 @@ Now we’re in the juicy section, this section will (try to) FULLY break down th
 ```
  
 ### `<identifiers>`: 
-
+```
 pawn_ 	 or 0		  = Used to identify the pawn in the script 
 
 knight_ or 1 		  = Used to identify the knight in the script 
@@ -91,7 +91,7 @@ boss_   or 6		  = Used to identify the king boss in the script
 all_   or 7		    = Used to identify all pieces in the script 
 
 leader_ or 8	 	  = Used to identify king or bishop in the script depending on theocracy  
-
+```
  
 
 ### Card specific functions 
@@ -124,7 +124,7 @@ sac=<int> or sac={<int>,<int>}  	= removes specific units
 ```
 
 ## Non-specific variables 
-```
+
 Booleans: 
 ```
 grab=<bool>			            = decides whether you can pick up a unit and throw it 
