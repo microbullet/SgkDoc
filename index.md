@@ -254,7 +254,7 @@ DEV=false -- enable to win floors instantly with space (testing purposes)
 ```
  
 ## Common crash reasons 
-- Not having commas or correct syntax. 
+- Not having correct syntax, this includes things like commas or equal signs. 
 - Having a card mentioned in the exclusion area that doesn’t exist 
 - Having the pwe value too high (like a billion high) 
 - Not having a difficulty or card mentioned in the english.txt file   
