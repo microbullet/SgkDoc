@@ -114,6 +114,8 @@ gid=<int>	  = determines what number card image it is on the card sheet
 n=<int>	    = determines the max of this card you can have 
 
 delay=<int>	= waits for <int> turns to enable things before it 
+ 
+period=<int> = do the [effects] every <int> turns
 ```
 
 ## Non-specific functions 
@@ -252,7 +254,7 @@ DEV=false -- enable to win floors instantly with space (testing purposes)
 ```
  
 ## Common crash reasons 
-- Not having commas between things in the card, such as effects 
+- Not having commas or correct syntax. 
 - Having a card mentioned in the exclusion area that doesn’t exist 
 - Having the pwe value too high (like a billion high) 
 - Not having a difficulty or card mentioned in the english.txt file   
