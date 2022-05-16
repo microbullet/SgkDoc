@@ -210,7 +210,6 @@ flip_on=”contact”or”inner” 	= determines whether the card flips for spec
  
 <identifier>_bodyguard=<bool> = decides whether <identifier> needs to be killed before the king can die
  
-
 <identifier>_shield=<bool>		= determines whether <identifier>s shield is active or not 
 ```
  
