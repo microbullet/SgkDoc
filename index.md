@@ -24,7 +24,7 @@
 - Grab the [Base mod.zip](https://github.com/microbullet/microbullet.github.io/files/8694444/Base.mod.zip)
  folder 
 - Put the Base mod folder into the mods folder  
-- If your file structure looks like “Sk Folder > mods > sample > files” then you are good to go 
+- If your file structure looks like “mods > base mod > files” then you are good to go 
 
 ## Smple modding 
 
