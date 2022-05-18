@@ -144,6 +144,8 @@ pikemen=<bool>		      = determines whether you have pikemen enabled
 Assault=<bool>		      = determines whether assault is active or not 
 
 theocracy=<bool>		    = determines whether theocracy is enabled 
+
+militia=<bool>        = determines whether militia is active.
 ```
   
 ## Variables: 
@@ -171,6 +173,10 @@ soul_sink=<-Int> 		        = decreases the king’s soul slots by <-int>
 firepower=<int> 		        = gain <int> firepower  
 
 pierce=<int> 		 	          = gain <int> pierce 
+ 
+xmax=<int>           = determines the length of the board
+ 
+ymax=<int>           = determines the height of the board 
  
 steed=<int+> 		      = determines how many extra turns you get for killing a knight
 
@@ -252,6 +258,26 @@ special="none",
 
 DEV=false -- enable to win floors instantly with space (testing purposes) 
 ```
+
+### wand section
+## Syntax
+In the sript.lua the syntax for denoting a wand is
+
+`wand={<int>, <input>},`
+ 
+an `<input>` is not always required
+ 
+## In game
+In shotgun king there are 5 wands, these wands are unfortunately hardcoded to what the numbers inputted to them will alter however the numbers on 3 of the wands can be altered, these wands nad what the following input changes are:
+ - Wrath, following <input> provides it's source of damage number, can be any defined variable above 1.
+ - Downpour, the `<int>` following the 
+ - Wings, the `<input>` determines how manys spaces you can move using the wand
+
+## Srites
+The sprites that the wands take in the top right are determined by their number (0 being the first and 4 being the last), the sprites can be found on the gfx.png sheet. 
+ 
+## Modifications 
+Trying to modify the wand number to outside the range of 0-4 the the sprite will show up but it will softlock the game.
  
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
