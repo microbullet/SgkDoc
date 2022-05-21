@@ -21,8 +21,7 @@
 
 ## How to install mods 
 - Go into your SK directory and add a folder called mods  
-- Get the [Base mod.zip](https://github.com/microbullet/microbullet.github.io/files/8694444/Base.mod.zip)
- folder 
+- Get the [Base Mod.zip](https://github.com/microbullet/microbullet.github.io/files/8747070/Shotgun_King_Mod_Base.zip) file.
 - Put the Base mod folder into the mods folder  
 - If your file structure looks like “mods > base mod > files” then you are good to go 
 
@@ -269,7 +268,7 @@ an `<input>` is not always required
  
 ## In game
 In shotgun king there are 5 wands, these wands are unfortunately hardcoded to what the numbers inputted to them will alter however the numbers on 3 of the wands can be altered, these wands nad what the following input changes are:
- - Wrath, following <input> provides it's source of damage number, can be any defined variable above 1.
+ - Wrath, following `<input>` provides it's source of damage number, can be any defined variable above 1.
  - Downpour, the `<int>` following the 
  - Wings, the `<input>` determines how manys spaces you can move using the wand
 
