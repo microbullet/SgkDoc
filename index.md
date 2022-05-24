@@ -114,7 +114,7 @@ n=<int>	    = determines the max of this card you can have
 
 delay=<int>	= waits for <int> turns to enable things before it 
  
-period=<int> = do the [effects] every <int> turns
+period=<int> = do the [effects] every <int> turns (only works with gain)
 ```
 
 ## Non-specific functions 
