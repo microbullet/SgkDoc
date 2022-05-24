@@ -145,6 +145,10 @@ Assault=<bool>		      = determines whether assault is active or not
 theocracy=<bool>		    = determines whether theocracy is enabled 
 
 militia=<bool>        = determines whether militia is active.
+ 
+mist=<bool>		            = determines whether this card saves you from death or not 
+ 
+steed=<bool> 		      = determines whether you get an extra turn for killing a knight or not
 ```
   
 ## Variables: 
@@ -175,9 +179,7 @@ pierce=<int> 		 	          = gain <int> pierce
  
 xmax=<int>           = determines the length of the board
  
-ymax=<int>           = determines the height of the board 
- 
-steed=<int+> 		      = determines how many extra turns you get for killing a knight
+ymax=<int>           = determines the height of the board
 
 wand={<int>}			          = gain <int> wand, explained further 
 
@@ -186,8 +188,6 @@ bad_shells=<int>    	      = <int> of your shots will have double the potential 
 moat=<int>			            = if <int> > 0 then determines what row the moat is on 
 
 absolution=<int> 		        = gain <int> firepower for every empty soul slot  
-
-mist=<int> 			            = get saved from death <int> times 
 
 flip_on=”contact”or”inner” 	= determines whether the card flips for specific conditions 
 ```
