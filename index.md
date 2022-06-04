@@ -273,7 +273,7 @@ An `<int/variable>` isn't used for 2 wands (those being gust and frenzy), howeve
 ## In game
 In shotgun king there are 5 wands, these wands are unfortunately hardcoded to what the numbers inputted to them will alter however the numbers on 3 of the wands can be altered, these wands nad what the following input changes are:
  - Wrath, following `<input>` provides it's source of damage number, can be any defined variable above 1.
- - Downpour, the `<int>` following the 
+ - Downpour, the `<int>` determines the total damage it deals
  - Wings, the `<input>` determines how manys spaces you can move using the wand
 
 ## Srites
