@@ -25,7 +25,7 @@
 - Put the Base mod folder into the mods folder  
 - If your file structure looks like “mods > base mod > files” then you are good to go 
 
-## Smple modding 
+## Simple modding 
 
 ### Texture modding 
 
