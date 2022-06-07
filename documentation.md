@@ -1,6 +1,7 @@
 # Shotgun King Documentation
 ## Prerequisites 
 
+[Click me](https://microbullet.github.io) to go back to the resources page
 ### Things that you absolutely need to have before you begin modding Shotgun King: The Final Checkmate.  
 
 - Basic knowledge file structures and how to navigate through menus 
@@ -17,7 +18,7 @@
 ### Some things to note before modding 
 - The game is prone to crashing and not working properly 
 - Never change the names of any of the files in the mod folder 
-- Crash logs rarely provide you with help you can understand. if you encounter any problems that aren't explained in the documentation ask the PUNCAKE discord for help and most people will help, if you can’t find a reliable answer then contact me at “Spooky scary skeletone#6108” 
+- Crash logs rarely provide you with help you can understand. if you encounter any problems that aren't explained in the documentation ask the PUNCAKE discord for help and most people will help, if you can’t find a reliable answer then contact me on discord at “Spooky#9159” 
 
 ## How to install mods 
 - Go into your SK directory and add a folder called mods  
