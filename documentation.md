@@ -11,7 +11,7 @@
 
 ### Some things that are preferred to have 
 - Visual studio code 
-- Access to version 1.244 
+- Access to version 1.245 
 - Basic coding knowledge (Lua) 
 
 ### Some things to note before modding 
