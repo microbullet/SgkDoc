@@ -136,7 +136,7 @@ crown=<bool>          = decides whether you have the effect of sacred crown or n
 
 presence=<bool>       = determines whether you have august Presence enabled 
 
-hop=<bool>            = determines whether you have taunting hop enabled 
+hop=<int>             = if <int> > 0 then determines the damage of taunting hop  
 
 heir=<bool>           = determines whether a secret heir is picked every round 
 
@@ -177,7 +177,9 @@ soul_sink=<-Int>              = decreases the king’s soul slots by <-int>
 
 firepower=<int>               = gain <int> firepower  
 
-pierce=<int>                  = gain <int> pierce 
+pierce=<int>                  = gain <int> pierce
+ 
+hop=<int>                     = gain <int> taunting hop damage 
  
 xmax=<int>                    = determines the length of the board
  
