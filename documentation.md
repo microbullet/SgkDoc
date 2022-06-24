@@ -150,7 +150,7 @@ militia=<bool>        = determines whether militia is active.
  
 mist=<bool>           = determines whether this card saves you from death or not 
  
-steed=<bool>          = determines whether you get an extra turn for killing a knight or not
+steed=<bool>          = determines how many extra spaces you can move per knight soul
 ```
   
 ## Variables: 
