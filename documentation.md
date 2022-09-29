@@ -22,7 +22,7 @@
 
 ## How to install mods 
 - Go into your SK directory and add a folder called mods  
-- Get the [Base Mod.zip](https://github.com/microbullet/microbullet.github.io/files/8747070/Shotgun_King_Mod_Base.zip) file.
+- Get the [Base Mod.zip](https://github.com/microbullet/microbullet.github.io/files/9674152/Mod.Base.zip) file.
 - Put the Base mod folder into the mods folder  
 - If your file structure looks like “mods > base mod > files” then you are good to go 
 
