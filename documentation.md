@@ -1,5 +1,8 @@
+# WARNING
+## A very large update to modding is about to come out making this doc largely obsolete until we can fully document all the new stuff, you have been warned
+
 # Shotgun King Documentation
-## Prerequisites 
+## Prerequisites
 
 [Click me](https://microbullet.github.io) to go back to the resources page
 ### Things that you absolutely need to have before you begin modding Shotgun King: The Final Checkmate.  
