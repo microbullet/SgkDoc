@@ -256,7 +256,11 @@ Trying to modify the wand number to outside the range of 0-4 the the sprite will
 ## Advanced Modding 
 If, at this point something you want to do still isn't possible than the further stuff should answer your questions, be warned though, it is much more difficult than the previous sections
  
-### Modes
+### Modes:
+ 
+#### Important variables:
+
+##### Bans 
  
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
