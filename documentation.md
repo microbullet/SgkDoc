@@ -44,7 +44,7 @@ When texture modding here’s what to watch out for
 
 ![colors](https://user-images.githubusercontent.com/73013941/168457764-4457721d-0dd4-4752-b0ea-7b7b53eed9f6.png)
 
-(Image credit: Tye#3868)
+*(Image credit: Tye#3868)
 
 ### Text modding 
 
@@ -121,14 +121,14 @@ delay=<int>   = waits for <int> turns to enable things before it
 period=<int>  = do the [effects] every <int> turns (only works with gain)
 ```
 
-## Non-specific functions 
+### Non-specific functions 
 ```
 gain=<int> or gain={<int>, <int>}   = adds specific units to the white army
 
 sac=<int> or sac={<int>,<int>}      = removes specific units 
 ```
 
-## Non-specific variables 
+### Non-specific variables 
 
 Booleans: 
 ```
@@ -155,7 +155,7 @@ mist=<bool>           = determines whether this card saves you from death or not
 steed=<bool>          = determines how many extra spaces you can move per knight soul
 ```
   
-## Variables: 
+### Variables: 
 ```
 ammo_max=<int>                = adds an <int> of ammos to the ammo reserves 
 
@@ -199,7 +199,7 @@ flip_on=”contact” o r”inner”  = determines whether the card flips for sp
 ```
  
 
-## `<Identifier>` variables 
+### `<Identifier>` variables 
 ```
 <identifier>_castle=<bool>    = determines whether castling is enabled for <identifier> 
 
@@ -226,35 +226,40 @@ flip_on=”contact” o r”inner”  = determines whether the card flips for sp
 <identifier>_shield=<bool>    = determines whether <identifier>s shield is active or not 
 ```
  
-## Card syntax 
+### Card syntax 
 
 `{[gid], [id], [n], [pwe], [effects]},` 
 
-# Wand section
+## Wand section
 ### Prerequisites
 Most of the wands are hardcoded in their function and currently there is no way to modify what the want will do, however some of the wands have a variable that can be changed in order to alter its function slightly, an example of this is the wand of wrath which does a default of 8 damage to random enemies, the 8 in this example can be changed to whatever suits the mod.
  
-## Syntax
+### Syntax
 In the sript.lua the syntax for denoting a wand is
 
 `wand={<int>, <int/variable>},`
  
 An `<int/variable>` isn't used for 2 wands (those being gust and frenzy), however the {} is still required.
  
-## In game
+### In game
 In shotgun king there are 5 wands, these wands are unfortunately hardcoded to what the numbers inputted to them will alter however the numbers on 3 of the wands can be altered, these wands nad what the following input changes are:
  - Wrath, following `<input>` provides it's source of damage number, can be any defined variable above 1.
  - Downpour, the `<int>` determines the total damage it deals
  - Wings, the `<input>` determines how manys spaces you can move using the wand
 
-## Srites
+### Sprites
 The sprites that the wands take in the top right are determined by their number (0 being the first and 4 being the last), the sprites can be found on the gfx.png sheet. 
  
-## Modifications 
+### Modifications 
 Trying to modify the wand number to outside the range of 0-4 the the sprite will show up but it will softlock the game. (citation needed)
+ 
+## Advanced Modding 
+If, at this point something you want to do still isn't possible than the further stuff should answer your questions, be warned though, it is much more difficult than the previous sections
+ 
+### Modes
  
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
 - Having a card mentioned in the exclusion area that doesn’t exist 
 - Having the pwe value too high (like a billion high) 
-- Not having a difficulty or card mentioned in the english.txt file   
+- Not having a mode or card mentioned in the english.txt file   
