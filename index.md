@@ -1,7 +1,5 @@
 # Shotgun King Documentation
 ## Prerequisites
-
-[Click me](https://microbullet.github.io) to go back to the resources page
 ### Things that you absolutely need to have before you begin modding
 - Basic knowledge file structures and how to navigate through menus 
 - A text editor of some kind 
@@ -267,8 +265,11 @@ The `ban={"card names"}` is a very useful feature for mods as it cuts down on th
 Syntax:
 ```
 ban={
- 
+ "card_name_1",
+ "card_name_2",
+ "card_name_3"
 }
+```
  
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
