@@ -87,11 +87,11 @@ queen_   or 4     = Used to identify the queen in the script
 
 king_    or 5     = Used to identify the king in the script 
 
-boss_    or 6     = Used to identify the king boss in the script 
+boss_    or 6                       = Used to identify the king boss in the script 
 
-all_     or 7     = Used to identify all pieces in the script 
+all_     or 7                       = Used to identify all pieces in the script 
 
-leader_  or 8     = Used to identify king or bishop in the script depending on theocracy  
+leader_  or 8                       = Used to identify king or bishop in the script depending on theocracy  
 ```
  
 
@@ -108,15 +108,15 @@ need_<identifier>_<variable>=<int>  = requires the <identifier>’s <variable> t
 
 ### Card specific variables 
 ```
-pwe=<int>     = determines how rare the card is, set to 0 and it won't appear 
+pwe=<int>                           = determines how rare the card is, set to 0 and it won't appear 
 
-gid=<int>     = determines what number card image it is on the card sheet 
+gid=<int>                           = determines what number card image it is on the card sheet 
 
-n=<int>       = determines the max of this card you can have 
+n=<int>                             = determines the max of this card you can have 
 
-delay=<int>   = waits for <int> turns to enable things before it 
+delay=<int>                         = waits for <int> turns to enable things before it 
  
-period=<int>  = do the [effects] every <int> turns (only works with gain)
+period=<int>                        = do the [effects] every <int> turns (only works with gain)
 ```
 
 ### Non-specific functions 
@@ -130,27 +130,27 @@ sac=<int> or sac={<int>,<int>}      = removes specific units
 
 Booleans: 
 ```
-grab=<bool>           = decides whether you can pick up a unit and throw it 
+grab=<bool>                         = decides whether you can pick up a unit and throw it 
  
-crown=<bool>          = decides whether you have the effect of sacred crown or not 
+crown=<bool>                        = decides whether you have the effect of sacred crown or not 
 
-presence=<bool>       = determines whether you have august Presence enabled 
+presence=<bool>                     = determines whether you have august Presence enabled 
 
-hop=<int>             = if <int> > 0 then determines the damage of taunting hop  
+hop=<int>                           = if <int> > 0 then determines the damage of taunting hop  
 
-heir=<bool>           = determines whether a secret heir is picked every round 
+heir=<bool>                         = determines whether a secret heir is picked every round 
 
-pikemen=<bool>        = determines whether you have pikemen enabled 
+pikemen=<bool>                      = determines whether you have pikemen enabled 
 
-Assault=<bool>        = determines whether assault is active or not 
+Assault=<bool>                      = determines whether assault is active or not 
 
-theocracy=<bool>      = determines whether theocracy is enabled 
+theocracy=<bool>                    = determines whether theocracy is enabled 
 
-militia=<bool>        = determines whether militia is active.
+militia=<bool>                      = determines whether militia is active.
  
-mist=<bool>           = determines whether this card saves you from death or not 
+mist=<bool>                         = determines whether this card saves you from death or not 
  
-steed=<bool>          = determines how many extra spaces you can move per knight soul
+steed=<bool>                        = determines how many extra spaces you can move per knight soul
 ```
   
 ### Variables: 
@@ -270,10 +270,10 @@ ban={
  "card_name_3"
 }
 ```
- 
+    
 #### Setup
  
-The `setup={"<var>"} variable is currently only used to change the max number of cards of each type you can hold
+The `setup={"<var>"}` variable is currently only used to change the max number of cards of each type you can hold
  
 Syntax:
  
@@ -284,8 +284,17 @@ setup={
 ```
  
 #### Base 
+The base variable functions roughly the same as the old HERO_INIT variable in the script.lua file, except it applies to a mode
 
- 
+Syntax:
+
+```
+base={
+	condition_1=0, condition_2=1,
+	variable_1="x", variable_2="y"
+}
+```
+
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
 - Having a card mentioned in the exclusion area that doesn’t exist 
