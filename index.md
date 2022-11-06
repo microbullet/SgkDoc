@@ -26,7 +26,7 @@
 - Put the Base mod folder into the mods folder  
 - If your file structure looks like “mods > base mod > files” then you are good to go 
 
-## Simple modding 
+# Simple modding 
 
 ### Texture modding 
 
@@ -58,7 +58,7 @@ play::begin
 
 Text modding can be done with a “<language here>.txt” file and including it in either the mod folder or in the dedicated “lang” folder  
 
-## Intermediate modding
+# Intermediate modding
 
 This section will (try) to FULLY cover the script.lua file and stuff you can do with it
 
@@ -253,14 +253,22 @@ The sprites that the wands take in the top right are determined by their number 
 ### Modifications 
 Trying to modify the wand number to outside the range of 0-4 the the sprite will show up but it will softlock the game. (citation needed)
  
-## Advanced Modding 
+# Advanced Modding 
 If, at this point something you want to do still isn't possible than the further stuff should answer your questions, be warned though, it is much more difficult than the previous sections
  
-### Modes:
+## Modes:
  
-#### Important variables:
+### Important variables:
 
-##### Bans 
+#### Ban list
+ 
+The `ban={"card names"}` is a very useful feature for mods as it cuts down on the bloat of massive exclusion lists in the script.lua function
+ 
+Syntax:
+```
+ban={
+ 
+}
  
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
