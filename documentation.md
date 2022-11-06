@@ -1,31 +1,28 @@
-# WARNING
-## A very large update to modding is about to come out making this doc largely obsolete until we can fully document all the new stuff, you have been warned
-
 # Shotgun King Documentation
 ## Prerequisites
 
 [Click me](https://microbullet.github.io) to go back to the resources page
-### Things that you absolutely need to have before you begin modding Shotgun King: The Final Checkmate.  
-
+### Things that you absolutely need to have before you begin modding
 - Basic knowledge file structures and how to navigate through menus 
 - A text editor of some kind 
-- An image editor, Windows should come pre-packaged with an image editor 
-- Shotgun King version 1.24 or above 
+- An image editor (Windows should come pre-packaged with an image editor)
+- Shotgun King version 1.3 or above 
 - The directory in which your [Shotgun king] exe is stored 
 
 ### Some things that are preferred to have 
 - Visual studio code 
-- Access to version 1.245 
-- Basic coding knowledge (Lua) 
+- Access to version 1.3 (currently only available on itch)
+- Intermediate coding knowledge, specifically lua
 
 ### Some things to note before modding 
-- The game is prone to crashing and not working properly 
-- Never change the names of any of the files in the mod folder 
+- The game is very easy to break and is prone to crashing
+- Never change the names of any of the files in the mod folder *(pending on the new update)* 
 - Crash logs rarely provide you with help you can understand. if you encounter any problems that aren't explained in the documentation ask the PUNCAKE discord for help and most people will help, if you can’t find a reliable answer then contact me on discord at “Spooky#9159” 
 
 ## How to install mods 
-- Go into your SK directory and add a folder called mods  
+- Go into your SK directory and create a folder called mods  
 - Get the [Base Mod.zip](https://github.com/microbullet/microbullet.github.io/files/9674152/Mod.Base.zip) file.
+- Unzip the file
 - Put the Base mod folder into the mods folder  
 - If your file structure looks like “mods > base mod > files” then you are good to go 
 
@@ -61,13 +58,13 @@ play::begin
 
 Text modding can be done with a “<language here>.txt” file and including it in either the mod folder or in the dedicated “lang” folder  
 
-## Complex modding  
+## Intermediate modding
 
-Now we’re in the juicy section, this section will (try to) FULLY break down the script.lua file and exactly what everything means 
+This section will (try) to FULLY cover the script.lua file and stuff you can do with it
 
-### Syntax used in the documentation 
+### Syntax used in this section
 ```
-<Int>            = a float 
+<int>            = a float 
 
 <bool>           = either 1 or 0 meaning true or false 
 
@@ -233,43 +230,9 @@ flip_on=”contact” o r”inner”  = determines whether the card flips for sp
 
 `{[gid], [id], [n], [pwe], [effects]},` 
 
-## Difficulties 
-
-Difficulties are areas of play that determine how hard the game is.  
-
-In game dev terms difficulties are just selectable options that alter non-specific variables for an entire run  
-
-  
-## Difficulty syntax
-  
-`{[number], [id], [effects]},`
-  
-## HERO_INIT (the base values) 
-```
-ammo_max=5, 
-
-chamber_max=2, 
-
-firepower=4, 
-
-firerange=3, 
-
-ammo_regen=1, 
-
-spread=57, 
-
-knockback=0, 
-
-pierce=0, 
-
-special="none", 
-
-DEV=false -- enable to win floors instantly with space (testing purposes) 
-```
-
 # Wand section
 ### Prerequisites
-Most of the wands are hardcoded in their function and currently there is no way to modify what the want will do, however some of the wands have a variable that cna be chnaged in order to alter its function slightly, an example of this is the wand of wrath which does a default of 8 damage to random enemies, the 8 in this example can be changed to whatever suits the mod.
+Most of the wands are hardcoded in their function and currently there is no way to modify what the want will do, however some of the wands have a variable that can be changed in order to alter its function slightly, an example of this is the wand of wrath which does a default of 8 damage to random enemies, the 8 in this example can be changed to whatever suits the mod.
  
 ## Syntax
 In the sript.lua the syntax for denoting a wand is
@@ -288,7 +251,7 @@ In shotgun king there are 5 wands, these wands are unfortunately hardcoded to wh
 The sprites that the wands take in the top right are determined by their number (0 being the first and 4 being the last), the sprites can be found on the gfx.png sheet. 
  
 ## Modifications 
-Trying to modify the wand number to outside the range of 0-4 the the sprite will show up but it will softlock the game.
+Trying to modify the wand number to outside the range of 0-4 the the sprite will show up but it will softlock the game. (citation needed)
  
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
