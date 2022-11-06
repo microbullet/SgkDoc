@@ -271,6 +271,21 @@ ban={
 }
 ```
  
+#### Setup
+ 
+The `setup={"<var>"} variable is currently only used to change the max number of cards of each type you can hold
+ 
+Syntax:
+ 
+```
+setup={
+	slots_max={10,10},
+}
+```
+ 
+#### Base 
+
+ 
 ## Common crash reasons 
 - Not having correct syntax, this includes things like commas or equal signs. 
 - Having a card mentioned in the exclusion area that doesn’t exist 
