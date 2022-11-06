@@ -30,7 +30,7 @@
 
 ### Texture modding 
 
-Texture modding is the simplest type of modding as it requires no coding experience and works almost every time. Texture modding just requires that you edit the image with the texture you are looking for 
+Texture modding is the simplest type of modding as it requires no coding experience and works almost every time (golden gun incident). Texture modding just requires that you edit the image with the texture you are looking for 
 
 In the sample mod folder, there are 4 images that can be edited, they are 
 - The intro where the king is holding his shotgun 
