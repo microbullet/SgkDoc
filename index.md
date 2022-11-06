@@ -44,7 +44,7 @@ When texture modding here’s what to watch out for
 
 ![colors](https://user-images.githubusercontent.com/73013941/168457764-4457721d-0dd4-4752-b0ea-7b7b53eed9f6.png)
 
-*(Image credit: Tye#3868)
+*(Image credit: Tye#3868)*
 
 ### Text modding 
 
