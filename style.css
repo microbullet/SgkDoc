@@ -42,6 +42,7 @@ button {
     width: auto;
     padding: 50px;
     margin: 20px;
+    line-height: 1.5em;
     text-align: center;
     color: #83769c;
 }
