@@ -14,7 +14,7 @@
         }
 
         function uploadText(filePath, id) {
-            text = logFileText(filePath)
+            text = loadFile(filePath)
             document.getElementById(id).innerHTML = text
         }
         const logFileText = async file => {
