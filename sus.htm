@@ -1,28 +1,152 @@
-
 <!DOCTYPE html>
 <html>
-    <script>
-        function loadFile(filePath) {
-            var result = null;
-            var xmlhttp = new XMLHttpRequest();
-            xmlhttp.open("GET", filePath, false);
-            xmlhttp.send();
-            if (xmlhttp.status==200) {
-                result = xmlhttp.responseText;
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            function loadFile(filePath) {
+                var result = null;
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.open("GET", filePath, false);
+                xmlhttp.send();
+                if (xmlhttp.status==200) {
+                    result = xmlhttp.responseText;
+                }
+                return result;
             }
-            return result;
-        }
 
-        function uploadText(filePath, id) {
-            text = loadFile(filePath)
-            document.getElementById(id).innerHTML = text
-        }
-        const logFileText = async file => {
-            const response = await fetch(file)
-            const text = await response.text()
-            console.log(text)   
-        }   
-    </script>
-    <button onclick="uploadText('https://microbullet.github.io/based.txt', 'output')"></button>
-    <p id="output"> Output </p> 
+            function display(id) {
+                document.getElementById("image").src
+             }
+
+            function uploadText(id) {
+                filePath = `https://microbullet.github.io/descriptions/card_${id}.txt`;
+                text = loadFile(filePath);
+                document.getElementById("description").innerHTML = text;
+            }
+        </script>
+    </head>
+    <nav style="background-color: #1d2b53; color: #83769c;">SK codex v1.3 - Discovery 72%</nav>
+    <body>
+        <div class="flex-container">
+            <div class="left">
+                <div class="flex-container">
+                    <button class="card_button"  onclick="uploadText(1)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_1.png"></button>
+                    <button class="card_button"  onclick="uploadText(2)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_2.png"></button>
+                    <button class="card_button"  onclick="uploadText(3)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_3.png"></button>
+                    <button class="card_button"  onclick="uploadText(4)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_4.png"></button>
+                    <button class="card_button"  onclick="uploadText(5)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_5.png"></button>
+                    <button class="card_button"  onclick="uploadText(6)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_6.png"></button>
+                    <button class="card_button"  onclick="uploadText(7)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_7.png"></button>
+                    <button class="card_button"  onclick="uploadText(8)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_8.png"></button>
+                    <button class="card_button"  onclick="uploadText(9)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_9.png"></button>
+                    <button class="card_button"  onclick="uploadText(10)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_10.png"></button>
+                    <button class="card_button"  onclick="uploadText(11)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_11.png"></button>
+                    <button class="card_button"  onclick="uploadText(12)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_12.png"></button>
+                    <button class="card_button"  onclick="uploadText(13)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_13.png"></button>
+                    <button class="card_button"  onclick="uploadText(14)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_14.png"></button>
+                    <button class="card_button"  onclick="uploadText(15)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_15.png"></button>
+                    <button class="card_button"  onclick="uploadText(16)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_16.png"></button>
+                    <button class="card_button"  onclick="uploadText(17)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_17.png"></button>
+                    <button class="card_button"  onclick="uploadText(18)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_18.png"></button>
+                    <button class="card_button"  onclick="uploadText(19)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_19.png"></button>
+                    <button class="card_button"  onclick="uploadText(20)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_20.png"></button>
+                    <button class="card_button"  onclick="uploadText(21)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_21.png"></button>
+                    <button class="card_button"  onclick="uploadText(22)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_22.png"></button>
+                    <button class="card_button"  onclick="uploadText(23)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_23.png"></button>
+                    <button class="card_button"  onclick="uploadText(24)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_24.png"></button>
+                    <button class="card_button"  onclick="uploadText(25)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_25.png"></button>
+                    <button class="card_button"  onclick="uploadText(26)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_26.png"></button>
+                    <button class="card_button"  onclick="uploadText(27)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_27.png"></button>
+                    <button class="card_button"  onclick="uploadText(28)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_28.png"></button>
+                    <button class="card_button"  onclick="uploadText(29)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_29.png"></button>
+                    <button class="card_button"  onclick="uploadText(30)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_30.png"></button>
+                    <button class="card_button"  onclick="uploadText(31)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_31.png"></button>
+                    <button class="card_button"  onclick="uploadText(32)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_32.png"></button>
+                    <button class="card_button"  onclick="uploadText(33)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_33.png"></button>
+                    <button class="card_button"  onclick="uploadText(34)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_34.png"></button>
+                    <button class="card_button"  onclick="uploadText(35)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_35.png"></button>
+                    <button class="card_button"  onclick="uploadText(36)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_36.png"></button>
+                    <button class="card_button"  onclick="uploadText(37)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_37.png"></button>
+                    <button class="card_button"  onclick="uploadText(38)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_38.png"></button>
+                    <button class="card_button"  onclick="uploadText(39)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_39.png"></button>
+                    <button class="card_button"  onclick="uploadText(40)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_40.png"></button>
+                    <button class="card_button"  onclick="uploadText(41)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_41.png"></button>
+                    <button class="card_button"  onclick="uploadText(42)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_42.png"></button>
+                    <button class="card_button"  onclick="uploadText(43)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_43.png"></button>
+                    <button class="card_button"  onclick="uploadText(44)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_44.png"></button>
+                    <button class="card_button"  onclick="uploadText(45)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_45.png"></button>
+                    <button class="card_button"  onclick="uploadText(46)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_46.png"></button>
+                    <button class="card_button"  onclick="uploadText(47)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_47.png"></button>
+                    <button class="card_button"  onclick="uploadText(48)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_48.png"></button>
+                    <button class="card_button"  onclick="uploadText(49)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_49.png"></button>
+                    <button class="card_button"  onclick="uploadText(50)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_50.png"></button>
+                    <button class="card_button"  onclick="uploadText(51)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_51.png"></button>
+                    <button class="card_button"  onclick="uploadText(52)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_52.png"></button>
+                    <button class="card_button"  onclick="uploadText(53)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_53.png"></button>
+                    <button class="card_button"  onclick="uploadText(54)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_54.png"></button>
+                    <button class="card_button"  onclick="uploadText(55)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_55.png"></button>
+                    <button class="card_button"  onclick="uploadText(56)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_56.png"></button>
+                    <button class="card_button"  onclick="uploadText(57)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_57.png"></button>
+                    <button class="card_button"  onclick="uploadText(58)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_58.png"></button>
+                    <button class="card_button"  onclick="uploadText(59)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_59.png"></button>
+                    <button class="card_button"  onclick="uploadText(60)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_60.png"></button>
+                    <button class="card_button"  onclick="uploadText(61)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_61.png"></button>
+                    <button class="card_button"  onclick="uploadText(62)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_62.png"></button>
+                    <button class="card_button"  onclick="uploadText(63)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_63.png"></button>
+                    <button class="card_button"  onclick="uploadText(64)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_64.png"></button>
+                    <button class="card_button"  onclick="uploadText(65)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_65.png"></button>
+                    <button class="card_button"  onclick="uploadText(66)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_66.png"></button>
+                    <button class="card_button"  onclick="uploadText(67)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_67.png"></button>
+                    <button class="card_button"  onclick="uploadText(68)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_68.png"></button>
+                    <button class="card_button"  onclick="uploadText(69)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_69.png"></button>
+                    <button class="card_button"  onclick="uploadText(70)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_70.png"></button>
+                    <button class="card_button"  onclick="uploadText(71)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_71.png"></button>
+                    <button class="card_button"  onclick="uploadText(72)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_72.png"></button>
+                    <button class="card_button"  onclick="uploadText(73)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_73.png"></button>
+                    <button class="card_button"  onclick="uploadText(74)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_74.png"></button>
+                    <button class="card_button"  onclick="uploadText(75)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_75.png"></button>
+                    <button class="card_button"  onclick="uploadText(76)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_76.png"></button>
+                    <button class="card_button"  onclick="uploadText(77)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_77.png"></button>
+                    <button class="card_button"  onclick="uploadText(78)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_78.png"></button>
+                    <button class="card_button"  onclick="uploadText(79)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_79.png"></button>
+                    <button class="card_button"  onclick="uploadText(80)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_80.png"></button>
+                    <button class="card_button"  onclick="uploadText(81)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_81.png"></button>
+                    <button class="card_button"  onclick="uploadText(82)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_82.png"></button>
+                    <button class="card_button"  onclick="uploadText(83)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_83.png"></button>
+                    <button class="card_button"  onclick="uploadText(84)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_84.png"></button>
+                    <button class="card_button"  onclick="uploadText(85)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_85.png"></button>
+                    <button class="card_button"  onclick="uploadText(86)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_86.png"></button>
+                    <button class="card_button"  onclick="uploadText(87)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_87.png"></button>
+                    <button class="card_button"  onclick="uploadText(88)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_88.png"></button>
+                    <button class="card_button"  onclick="uploadText(89)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_89.png"></button>
+                    <button class="card_button"  onclick="uploadText(90)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_90.png"></button>
+                    <button class="card_button"  onclick="uploadText(91)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_91.png"></button>
+                    <button class="card_button"  onclick="uploadText(92)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_92.png"></button>
+                    <button class="card_button"  onclick="uploadText(93)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_93.png"></button>
+                    <button class="card_button"  onclick="uploadText(94)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_94.png"></button>
+                    <button class="card_button"  onclick="uploadText(95)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_95.png"></button>
+                    <button class="card_button"  onclick="uploadText(96)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_96.png"></button>
+                    <button class="card_button"  onclick="uploadText(97)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_97.png"></button>
+                    <button class="card_button"  onclick="uploadText(98)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_98.png"></button>
+                    <button class="card_button"  onclick="uploadText(99)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_99.png"></button>
+                    <button class="card_button"  onclick="uploadText(100)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
+                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
+                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
+                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
+                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
+                    <button onclick=""><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="bottom" src="images/card_100.png" style="opacity: 0;"></button>
+                    
+                </div>  
+            </div>
+            <div class="right">
+                <div class="before"></div>
+                <div class="name"><p id='name'></p></div>
+                <img id="image" src="images/card_1.png">
+                <div class="description" id="description">
+                    <p> </p>
+                </div>
+            </div>
+        </div>
+
+    </body>
 </html>
