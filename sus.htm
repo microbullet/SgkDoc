@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+    <script>
+        function loadFile(filePath) {
+            var result = null;
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", filePath, false);
+            xmlhttp.send();
+            if (xmlhttp.status==200) {
+                result = xmlhttp.responseText;
+            }
+            return result;
+        }
+
+        function uploadText(filePath, id) {
+            text = logFileText(filePath)
+            document.getElementById(id).innerHTML = text
+        }
+        const logFileText = async file => {
+            const response = await fetch(file)
+            const text = await response.text()
+            console.log(text)   
+        }   
+    </script>
+    <button onclick="uploadText('based.txt', 'output')"></button>
+    <p id="output"> Output </p> 
+</html>
