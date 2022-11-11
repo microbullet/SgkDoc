@@ -1,2 +1,1 @@
-Ermine Belt;Charge 3 additional shells in your royal shotgun
-
+Ermine Belt;Charge 3 additional shells in your royal shotgun;
