@@ -1,0 +1,1 @@
+Unfaithful steed;move range: +1 flip card if there's no knight on the board;

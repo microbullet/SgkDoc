@@ -1,0 +1,1 @@
+SCouting;remove 1 knight add 2 pawns pawn: +1 speed;

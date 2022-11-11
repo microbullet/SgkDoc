@@ -1,0 +1,1 @@
+undead armies;replace rooks, knights and bishops with a pawn if they die;

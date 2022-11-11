@@ -1,0 +1,1 @@
+knightmare;add 1 knight knight can only be hit when moving knight: -1 hp;Black mist

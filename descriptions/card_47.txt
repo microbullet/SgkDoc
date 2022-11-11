@@ -1,0 +1,1 @@
+caltrops;+1 ammo max injured pieces lose 2 speed;

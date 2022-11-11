@@ -1,0 +1,1 @@
+Ruins;add 2 pawns add 1 rook rook: -2 hp;

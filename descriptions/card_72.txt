@@ -1,0 +1,1 @@
+Castle;rook: +1 hp King swaps place with a rook whenever he would take damage;

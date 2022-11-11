@@ -1,0 +1,1 @@
+military academy;add 1 knight every 10 turns;

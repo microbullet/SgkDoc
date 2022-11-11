@@ -1,0 +1,1 @@
+Ammunition depot;add 1 rook gain 2 ammo each time you kill a rook ;

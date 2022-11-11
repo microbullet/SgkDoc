@@ -1,0 +1,1 @@
+Engraved scope;Right Click: arc -45 and range +1. Resets on each move or reload;

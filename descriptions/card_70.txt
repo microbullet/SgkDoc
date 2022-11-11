@@ -1,0 +1,1 @@
+pikemen;pawns can't attack diagonally but they can attack the front 2 squares instead;

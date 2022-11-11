@@ -1,0 +1,1 @@
+conclave;add 2 bishops after 15 turns;

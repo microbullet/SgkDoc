@@ -1,0 +1,1 @@
+Last guardian;after killing a pawn, promote another pawn if it's the last one;

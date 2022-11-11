@@ -1,0 +1,1 @@
+court of the king;add 2 knights add 1 bishop add 1 rook all pieces: -1 speed;

@@ -1,0 +1,1 @@
+Pillage;remove 1 rook add 5 pawns pawn: +1 hp;

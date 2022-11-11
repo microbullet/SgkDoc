@@ -1,0 +1,1 @@
+Throne room;King: +2 hp Queen: +1 hp;

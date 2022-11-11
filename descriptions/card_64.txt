@@ -1,0 +1,1 @@
+Assault;add 1 pawn pawns can walk 2 squares on their first move;
