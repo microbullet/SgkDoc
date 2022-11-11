@@ -15,17 +15,53 @@
             }
 
             function display(id) {
-                document.getElementById("image").src
+                document.getElementById("image").src;
              }
 
+            let mode;
+            let name;
+            let desc;
+            let req;
+            
+
             function uploadText(id) {
+                desc = " ";
+                text = " ";
+                name = " ";
+                req = " ";
+                mode = 0;
                 filePath = `https://microbullet.github.io/descriptions/card_${id}.txt`;
                 text = loadFile(filePath);
-                document.getElementById("description").innerHTML = text;
+                for (let i in text) {
+                    if (text[i] == ";") {
+                        mode += 1;
+                    }
+                    if (mode == 0){
+                        name += text[i];
+                    }
+                    else if (mode == 1) {
+                        if (text[i] != ";") {
+                            desc += text[i];
+                        }
+                    }
+                    else {
+                        if (text[i] != ";") {
+                            req += text[i];
+                        }
+                    }
+                }
+                if (req != "") {
+                    document.getElementById("req2").innerHTML = "need card :"
+                }
+                document.getElementById("name").innerHTML = name;
+                document.getElementById("description").innerHTML = desc;
+                document.getElementById("req").innerHTML = req;
+                document.getElementById("image").src = `images/card_${id}.png`;
             }
         </script>
     </head>
     <nav style="background-color: #1d2b53; color: #83769c;">SK codex v1.3 - Discovery 72%</nav>
+    
     <body>
         <div class="flex-container">
             <div class="left">
@@ -141,9 +177,13 @@
             <div class="right">
                 <div class="before"></div>
                 <div class="name"><p id='name'></p></div>
-                <img id="image" src="images/card_1.png">
+                <img id="image" onerror="this.src='images/card_alt.png'" src="">
                 <div class="description" id="description">
                     <p> </p>
+                </div>
+                <div class="req" >
+                    <p id="req2 "> </p>
+                    <p id="req" style="color: #83769c;"> </p>
                 </div>
             </div>
         </div>
