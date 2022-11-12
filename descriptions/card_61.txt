@@ -1,1 +1,1 @@
-Revolution;remove 1 bishop add 6 pawns;
+crusades;remove 1 bishop add 2 knights;

@@ -1,1 +1,1 @@
-Peace;remove 1 knight add 2 bishops;
+remparts;remove 2 pawns add 1 rook;

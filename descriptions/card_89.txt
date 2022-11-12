@@ -1,1 +1,1 @@
-knightmare;add 1 knight knight can only be hit when moving knight: -1 hp;Black mist
+undead armies;replace rooks, knights and bishops with a pawn when they die;

@@ -1,1 +1,1 @@
-theocracy;remove 1 king add 1 bishop win if all bishops are dead bishop: +2 hp;
+pikemen;pawns can't attack diagonally but they can attack the front 2 squares instead pawn: +1 hp;

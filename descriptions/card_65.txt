@@ -1,1 +1,1 @@
-;;
+revolution;remove 1 bishop add 6 pawns;

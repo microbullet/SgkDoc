@@ -1,1 +1,1 @@
-Militia;add 1 pawn pawns can move / attack in four directions;
+Ruins;add 2 pawns add 1 rook rook: -2 hp;assault;

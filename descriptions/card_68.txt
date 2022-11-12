@@ -1,1 +1,1 @@
-Ammunition depot;add 1 rook gain 2 ammo each time you kill a rook ;
+assault;add 1 pawn pawns can move 2 squares on their first move;

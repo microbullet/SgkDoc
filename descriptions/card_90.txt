@@ -1,1 +1,1 @@
-;;
+shortage;remove 1 pawn - 3 ammo max -1 grenade;

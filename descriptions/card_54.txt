@@ -1,1 +1,1 @@
-Entitle;Remove 1 pawn add 1 knight -1 ammo max;
+;;

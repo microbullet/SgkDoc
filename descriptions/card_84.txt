@@ -1,1 +1,1 @@
-undead armies;replace rooks, knights and bishops with a pawn if they die;
+lookout tower;add 1 rook after 20 turns backups come 1 turn sooner for every piece you kill;

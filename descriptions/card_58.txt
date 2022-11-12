@@ -1,1 +1,1 @@
-Crusades;remove 1 bishop add 2 knights;
+cardinal;remove 1 pawn add 1 bishop -1 ammo max;

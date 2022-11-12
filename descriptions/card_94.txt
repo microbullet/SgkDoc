@@ -1,1 +1,1 @@
-Last guardian;after killing a pawn, promote another pawn if it's the last one;
+knightmare;add 1 knight knight can only hit when moving knight: -1 hp;Black mist

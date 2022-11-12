@@ -1,1 +1,1 @@
-Ruins;add 2 pawns add 1 rook rook: -2 hp;
+king's mistress;add 1 queen queen's moves are limited to 3 squares;

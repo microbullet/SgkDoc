@@ -1,1 +1,1 @@
-Zealots;Pawn: +1 bishop: +1 speed flip card if a bishop dies;
+;;

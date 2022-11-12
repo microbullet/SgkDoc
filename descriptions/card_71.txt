@@ -1,1 +1,1 @@
-;;
+zealots;pawn: +1 speed bishop: +1 speed flip card if there's no bishop on the board;

@@ -1,1 +1,1 @@
-Shortage;remove 1 pawn -3 ammo max -1 grenades;
+throne room;King: +2 hp queen: +1 hp;

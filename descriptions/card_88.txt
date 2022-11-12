@@ -1,1 +1,1 @@
-;;
+karma;-1 firepower on white squares +30 fire arc on black squares;

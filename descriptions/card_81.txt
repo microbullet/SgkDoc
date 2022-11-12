@@ -1,1 +1,1 @@
-The secret heir;add 1 pawn the secret heir replaces the king if he dies;
+The red book;;add 1 bishop bishops can move (not attack) orthoganally
