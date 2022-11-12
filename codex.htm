@@ -29,6 +29,7 @@
                 text = " ";
                 name = " ";
                 req = " ";
+                document.getElementById("req2").style.opacity = 0
                 mode = 0;
                 filePath = `https://microbullet.github.io/descriptions/card_${id}.txt`;
                 text = loadFile(filePath);
@@ -50,8 +51,12 @@
                         }
                     }
                 }
-                if (req != "") {
-                    document.getElementById("req2").innerHTML = "need card :"
+                if (text.at(-1) != ";") {
+                    document.getElementById("req2").style.opacity = 100
+                }
+                console.log(name)
+                if (name == " Ermine Belt") {
+                    document.getElementById("req2").style.opacity = 0
                 }
                 document.getElementById("name").innerHTML = name;
                 document.getElementById("description").innerHTML = desc;
@@ -65,6 +70,7 @@
     <body>
         <div class="flex-container">
             <div class="left">
+                <nav style="background-color: #0e1529;"></nav>
                 <div class="flex-container">
                     <button class="card_button"  onclick="uploadText(1)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_1.png"></button>
                     <button class="card_button"  onclick="uploadText(2)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_2.png"></button>
@@ -166,11 +172,19 @@
                     <button class="card_button"  onclick="uploadText(98)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_98.png"></button>
                     <button class="card_button"  onclick="uploadText(99)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_99.png"></button>
                     <button class="card_button"  onclick="uploadText(100)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
-                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
-                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
-                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
-                    <button class="card_button"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_100.png"></button>
-                    <button onclick=""><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="bottom" src="images/card_100.png" style="opacity: 0;"></button>
+                    <button class="card_button"  onclick="uploadText(101)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_101.png"></button>
+                    <button class="card_button"  onclick="uploadText(102)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_102.png"></button>
+                    <button class="card_button"  onclick="uploadText(103)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_103.png"></button>
+                    <button class="card_button"  onclick="uploadText(104)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_104.png"></button>
+                    <button class="card_button"  onclick="uploadText(105)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_105.png"></button>
+                    <button class="card_button"  onclick="uploadText(106)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_106.png "></button>
+                    <button class="card_button"  onclick="uploadText(106)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_107.png"></button>
+                    <button class="card_button"  onclick="uploadText(106)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_107.png"></button>
+                    <button class="card_button"  onclick="uploadText(106)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_107.png"></button>
+                    <button class="card_button"  onclick="uploadText(106)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_107.png"></button>
+                    <button class="card_button"  onclick="uploadText(106)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_107.png"></button>
+                    <button class="card_button"  onclick="uploadText(106)"><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="card" src="images/card_107.png"></button>
+                    <button onclick=""><img onerror="this.onerror=null; this.src='images/card_alt.png'" class="bottom" src="images/card_100.png" style="opacity: 0;"></butto    n>
                     
                 </div>  
             </div>
@@ -181,8 +195,8 @@
                 <div class="description" id="description">
                     <p> </p>
                 </div>
-                <div class="req" >
-                    <p id="req2 "> </p>
+                <div class="req" id="">
+                    <p id="req2" style="opacity: 0;"> need card: </p>
                     <p id="req" style="color: #83769c;"> </p>
                 </div>
             </div>
