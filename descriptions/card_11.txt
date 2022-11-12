@@ -1,1 +1,1 @@
-;;
+Ritual dagger;Blade: +1 King: -2 hp -1 fire range;
