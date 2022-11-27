@@ -1,1 +1,0 @@
-conscription;add 1 pawn every 5 turns;
