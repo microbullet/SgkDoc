@@ -1,1 +1,0 @@
-kite shield;add 1 pawn knights have a shield that absorbs all incoming damage on a sinle turn;
