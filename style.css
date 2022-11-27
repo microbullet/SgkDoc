@@ -25,6 +25,7 @@ img {
     image-rendering: pixelated;
     -ms-interpolation-mode: nearest-neighbor;
 }
+
 body {
     background-color: #0e1529;
     overflow-x: hidden;
@@ -33,11 +34,14 @@ body {
     font-family: 'pico-8', 'serif';
     text-transform: uppercase;
 }
+
 nav{
     margin: 0px;
     padding: 10px;
     line-height: 1;
+    width: 62%;
 }
+
 p {
     align-items: center;
     line-height: 2;
@@ -47,6 +51,7 @@ p {
 button {
     all: unset;
     cursor: pointer;
+    width: 10%;
 }
 
 .name {
@@ -79,26 +84,24 @@ button {
 }
 
 .card {
-    width: auto;
-    height: 122px;
+    width: 100%;
+    height: auto;
     margin: 6px;
 }
 
 .bottom {
-    width: 11%;
-    height: 30px;
+    width: 100%;
+    height: 40px;
 }
 
 .left{
     width: 62%;
-    height: 630px;
     overflow-y: scroll;
 }
 
 .right {
     width:38%;
     overflow: auto;
-    height: 630px;
 }
 
 * {
@@ -116,3 +119,8 @@ button {
   display: table;
   clear: both;
 }
+
+.storage {
+    opacity: 0%;
+}
+
