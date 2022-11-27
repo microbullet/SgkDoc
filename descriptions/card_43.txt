@@ -1,1 +1,0 @@
-Ravenous rats;When you kill a piece, a rat bites the nearest target for 1 dmg;
