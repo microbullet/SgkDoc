@@ -1,1 +1,0 @@
-Blunderbuss;+2 firepower fire arc + 30;
