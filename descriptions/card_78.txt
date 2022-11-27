@@ -1,1 +1,0 @@
-remove 1 king add 1 bishop win if all bishops are dead bishop: +2 hp;theocracy;
