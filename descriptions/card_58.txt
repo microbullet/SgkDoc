@@ -1,1 +1,0 @@
-cardinal;remove 1 pawn add 1 bishop -1 ammo max;
