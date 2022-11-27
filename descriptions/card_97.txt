@@ -1,1 +1,0 @@
-the bridge;add 1 knight after 10 turns open a path in the moat;the moat
